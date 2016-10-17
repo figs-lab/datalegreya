@@ -110,7 +110,7 @@
 ##Webfont
 
 ###@font-face
-To use it on the web, simply load the OTF file in your CSS using `@font-face`:
+To use it on the web, simply load the OTF file in your CSS using the `@font-face` rule:
 <pre><code>@font-face {
 	font-family: 'Datalegreya-Thin';
 	src: url('[path/to/your/fonts/folder]/Datalegreya-Thin.otf');
@@ -142,7 +142,7 @@ To display the font properly, you must enable `kern` (kerning), `liga` (ligature
 }</code></pre>
 
 ###`text-rendering` + `font-smoothing`
-To optimize font rendering, you can also use `text-rendering` and `font-smoothing` features as following:
+To optimize font rendering, you can also use `text-rendering` and `font-smoothing` properties as following:
 <pre><code>body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
