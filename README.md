@@ -29,6 +29,7 @@
 	- [`text-rendering` + `font-smoothing`](#text-rendering--font-smoothing)
 	- [Browser support](#browser-support)
 - [**License**](#license)
+- [**Feedback or question?**](#feedback-or-question)
 
 ------
 
@@ -186,4 +187,7 @@ IE Mobile                  | ✗ No
 
 ##License
 This font is licensed under the [SIL Open Font License (OFL), Version 1.1](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
-
+
+
+##Feedback or questions?
+Feel free to contact us at <contact@figs-lab.com>
