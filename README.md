@@ -11,9 +11,9 @@
 
 
 ##Summary
-- [Demo](http://figs-lab.com/datalegreya)
-- [How to install](#how-to-install)
-- [How to use it](#how-to-use-it)
+- [**Demo**](http://figs-lab.com/datalegreya)
+- [**How to install**](#how-to-install)
+- [**How to use it**](#how-to-use-it)
 	- [Simplest form](#simplest-form)
 	- [Simple graph](#simple-graph)
 	- [Neutral characters](#neutral-characters)
@@ -23,12 +23,12 @@
 	- [Non neutral spaces](#non-neutral-spaces)
 	- [X axis legend](#x-axis-legend)
 	- [Y axis legend](#y-axis-legend)
-- [Webfont](#webfont)
+- [**Webfont**](#webfont)
 	- [`@font-face`](#font-face)
 	- [`font-feature-settings` + `font-variant-ligatures`](#font-feature-settings--font-variant-ligatures)
 	- [`text-rendering` + `font-smoothing`](#text-rendering--font-smoothing)
 	- [Browser support](#browser-support)
-- [License](#license)
+- [**License**](#license)
 
 ------
 
