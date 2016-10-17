@@ -3,7 +3,7 @@
 
 ![Specimen](http://figs-lab.com/content/datalegreya/readme-specimen.png)
 
->Datalegreya is a typeface which can interweave data curves with text. It is designed by [Figs](http://figs-lab.com), on the basis of open source font [Alegreya Sans SC Thin](https://fonts.google.com/specimen/Alegreya+Sans+SC) by typographer [Juan Pablo del Peral](https://twitter.com/juandelperal). 
+>Datalegreya is a typeface which can interweave data curves with text. It is designed by [Figs](http://figs-lab.com), on the basis of open source font [Alegreya Sans SC Thin](https://fonts.google.com/specimen/Alegreya+Sans+SC) by type designer [Juan Pablo del Peral](https://twitter.com/juandelperal). 
 
 >Datalegreya can be used in all contexts where small space is available to synthetically display graphical data: connected objects, embedded displays, annual reports, weather report, stock prices, etc.
 >It doesn’t need any specialized software: users just have to install it in the operating system and launch any software able to display OpenType fonts, such as Microsoft Word, Apple TextEdit, Adobe Suite, etc. 
@@ -37,11 +37,11 @@ Check out our [**demo**](http://figs-lab.com/datalegreya) on our website!
 
 ##How to install
 
-1. [Download ZIP](https://github.com/figs-lab/datalegreya/archive/master.zip)
+1. [**Download ZIP**](https://github.com/figs-lab/datalegreya/archive/master.zip)
 2. Unzip `datalegreya-master.zip`
 3. Go to `/Font Files` folder and double-click on OTF files to install it on your computer.
 4. Open you favorite design software
-5. Activate the following OpenType feature:
+5. Activate the following OpenType features:
 	- Ligatures
 	- Discretionary Ligatures
 	- Contextual Alternates
