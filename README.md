@@ -1,5 +1,5 @@
 #Datalegreya
-####the typeface that melts text and data visualisation
+###the typeface that melts text and data visualisation
 
 ![Specimen](http://figs-lab.com/content/datalegreya/readme-specimen.png)
 
@@ -9,9 +9,8 @@
 >It doesn’t need any specialized software: users just have to install it in the operating system and launch any software able to display OpenType fonts, such as Microsoft Word, Apple TextEdit, Adobe Suite, etc. 
 >Standards compliance makes it equally available on the web or software embedded.>Most connected objects feature a small sized screen, and all of them are about data. By its hybrid design aimed to displaying text and data in compact spaces, Datalegreya brings a realistic and elegant solution to this ever growing market’s specific issues.
 
-***
 
-####Summary
+##Summary
 - [Demo](http://figs-lab.com/datalegreya)
 - [How to install](#how-to-install)
 - [How to use it](#how-to-use-it)
@@ -31,7 +30,7 @@
 	- [Browser support](#browser-support)
 - [License](#license)
 
-***
+------
 
 ##Demo
 Check out our [**demo**](http://figs-lab.com/datalegreya) on our website!
@@ -117,7 +116,9 @@ Check out our [**demo**](http://figs-lab.com/datalegreya) on our website!
 
 ###@font-face
 To use it on the web, simply load the OTF file in your CSS using the `@font-face` rule:
-<pre><code>@font-face {
+
+```css
+@font-face {
 	font-family: 'Datalegreya-Thin';
 	src: url('[path/to/your/fonts/folder]/Datalegreya-Thin.otf');
 	font-weight: normal;
@@ -134,26 +135,33 @@ To use it on the web, simply load the OTF file in your CSS using the `@font-face
 	src: url('[path/to/your/fonts/folder]/Datalegreya-Dot.otf');
 	font-weight: normal;
 	font-style: normal;
-}</code></pre>
+}
+```
 
 ###`font-feature-settings` + `font-variant-ligatures`
 To display the font properly, you must enable `kern` (kerning), `liga` (ligatures) and `calt` (contextual alternates) features by adding the following code to your CSS file:
-<pre><code>body {
+
+```css
+body {
 	-webkit-font-feature-settings "kern" on, "liga" on, "calt" on;
 	-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	font-feature-settings: "kern" on, "liga" on, "calt" on;
 	font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
-}</code></pre>
+}
+```
 
 ###`text-rendering` + `font-smoothing`
 To optimize font rendering, you can also use `text-rendering` and `font-smoothing` properties as following:
-<pre><code>body {
+
+```css
+body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}</code></pre>
+}
+```
 
 ###Browser support
 Browser | CSS [OTF](http://caniuse.com/#feat=ttf) + [font-feature-settings](http://caniuse.com/#search=feature-settings) support
