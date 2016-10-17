@@ -44,20 +44,19 @@ To use it on the web, simply load the OTF file in your CSS using `@font-face`:
 	font-style: normal;
 }</code></pre>
 
-
-###font-feature-settings
-To display the font properly, you must enable ligatures by adding the following code to your CSS file:
+###`font-feature-settings` + `font-variant-ligatures`
+To display the font properly, you must enable `kern` (kerning), `liga` (ligatures) and `calt` (contextual alternates) features by adding the following code to your CSS file:
 <pre><code>body {
 	-webkit-font-feature-settings "kern" on, "liga" on, "calt" on;
 	-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	font-feature-settings: "kern" on, "liga" on, "calt" on;
-	font-variant-ligatures common-ligatures discretionary-ligatures contextual;
+	font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
 }</code></pre>
 
-###text-rendering and font-smoothing
-And to optimize font rendering:
+###`text-rendering` + `font-smoothing`
+To optimize font rendering, you can also use `text-rendering` and `font-smoothing` features as following:
 <pre><code>body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -67,21 +66,21 @@ And to optimize font rendering:
 ###Browser support
 Browser | CSS [OTF](http://caniuse.com/#feat=ttf) + [font-feature-settings](http://caniuse.com/#search=feature-settings) support
 ---------------------------| ------------------
-IE 9                       | [ ] Not Supported
-IE 10+                     | [-] Partial
-Edge 12+                   | [x] Supported
-Firefox 34+                | [x] Supported
-Chrome 48+                 | [x] Supported
-Opera 35+                  | [x] Supported
-Safari 9.1+                | [x] Supported
-iOS Safari 4.3+            | [x] Supported
-Opera Mini                 | [ ] Not Supported
-Opera Mobile 37+           | [x] Supported
-Android Browser 52+        | [x] Supported
-Blackberry Browser 10+     | [x] Supported
-Chrome for Android 53+     | [x] Supported
-Firefox for Android 49+    | [x] Supported
-IE Mobile                  | [ ] Not Supported
+IE 9                       | ✗ No
+IE 10+                     | ~ Partial
+Edge 12+                   | ✓ Yes
+Firefox 34+                | ✓ Yes
+Chrome 48+                 | ✓ Yes
+Opera 35+                  | ✓ Yes
+Safari 9.1+                | ✓ Yes
+iOS Safari 4.3+            | ✓ Yes
+Opera Mini                 | ✗ No
+Opera Mobile 37+           | ✓ Yes
+Android Browser 52+        | ✓ Yes
+Blackberry Browser 10+     | ✓ Yes
+Chrome for Android 53+     | ✓ Yes
+Firefox for Android 49+    | ✓ Yes
+IE Mobile                  | ✗ No
 
 
 ##How to use it
