@@ -10,6 +10,7 @@
 ***
 
 ####Summary
+- [Demo](http://figs-lab.com/datalegreya)
 - [How to install](#how-to-install)
 - [How to use it](#how-to-use-it)
 	- [Simplest form](#simplest-form)
@@ -29,6 +30,9 @@
 - [License](#license)
 
 ***
+
+##Demo
+Check out our [**demo**](http://figs-lab.com/datalegreya) on our website!
 
 ##How to install
 
