@@ -29,7 +29,7 @@
 	- [`text-rendering` + `font-smoothing`](#text-rendering--font-smoothing)
 	- [Browser support](#browser-support)
 - [**License**](#license)
-- [**Feedback or question?**](#feedback-or-questions)
+- [**Feedback or questions?**](#feedback-or-questions)
 
 ------
 
