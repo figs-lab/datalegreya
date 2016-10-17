@@ -143,7 +143,7 @@ To display the font properly, you must enable `kern` (kerning), `liga` (ligature
 
 ```css
 body {
-	-webkit-font-feature-settings "kern" on, "liga" on, "calt" on;
+	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
 	-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
