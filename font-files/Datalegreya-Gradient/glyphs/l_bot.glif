@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.bot" format="1">
+  <advance width="86"/>
+  <outline>
+    <contour>
+      <point x="17" y="-79" type="line"/>
+      <point x="17" y="-71" type="line"/>
+      <point x="41" y="-71" type="line"/>
+      <point x="41" y="18" type="line"/>
+      <point x="18" y="17" type="line"/>
+      <point x="18" y="25" type="line"/>
+      <point x="50" y="25" type="line"/>
+      <point x="50" y="-71" type="line"/>
+      <point x="74" y="-71" type="line"/>
+      <point x="74" y="-79" type="line"/>
+    </contour>
+  </outline>
+</glyph>

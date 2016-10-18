@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute_J.loclNLD" format="1">
+  <advance width="240"/>
+  <outline>
+    <contour>
+      <point x="130" y="0" type="line"/>
+      <point x="130" y="637" type="line"/>
+      <point x="110" y="637" type="line"/>
+      <point x="110" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="191" y="853" type="line"/>
+      <point x="186" y="854" type="line"/>
+      <point x="132" y="799"/>
+      <point x="86" y="756"/>
+      <point x="40" y="717" type="curve"/>
+      <point x="51" y="704" type="line"/>
+      <point x="56" y="703" type="line"/>
+      <point x="106" y="747"/>
+      <point x="152" y="790"/>
+      <point x="200" y="838" type="curve"/>
+      <point x="201" y="843" type="line"/>
+    </contour>
+  </outline>
+</glyph>

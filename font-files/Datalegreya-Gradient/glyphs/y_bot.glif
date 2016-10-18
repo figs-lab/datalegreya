@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="y.bot" format="1">
+  <advance width="86"/>
+  <outline>
+    <contour>
+      <point x="11" y="-3" type="line"/>
+      <point x="20" y="-3" type="line"/>
+      <point x="42" y="-66" type="line"/>
+      <point x="44" y="-66" type="line"/>
+      <point x="63" y="-3" type="line"/>
+      <point x="73" y="-3" type="line"/>
+      <point x="44" y="-90" type="line" smooth="yes"/>
+      <point x="41" y="-98"/>
+      <point x="38" y="-103"/>
+      <point x="35" y="-106" type="curve" smooth="yes"/>
+      <point x="32" y="-108"/>
+      <point x="26" y="-109"/>
+      <point x="17" y="-109" type="curve"/>
+      <point x="17" y="-101" type="line"/>
+      <point x="23" y="-101"/>
+      <point x="27" y="-100"/>
+      <point x="29" y="-99" type="curve" smooth="yes"/>
+      <point x="31" y="-97"/>
+      <point x="33" y="-94"/>
+      <point x="34" y="-89" type="curve" smooth="yes"/>
+      <point x="38" y="-78" type="line"/>
+    </contour>
+  </outline>
+</glyph>

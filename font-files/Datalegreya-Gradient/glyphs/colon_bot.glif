@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon.bot" format="1">
+  <advance width="86"/>
+  <outline>
+    <contour>
+      <point x="30" y="-77" type="line"/>
+      <point x="30" y="-62" type="line"/>
+      <point x="44" y="-62" type="line"/>
+      <point x="44" y="-77" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="-32" type="line"/>
+      <point x="30" y="-16" type="line"/>
+      <point x="44" y="-16" type="line"/>
+      <point x="44" y="-32" type="line"/>
+    </contour>
+  </outline>
+</glyph>

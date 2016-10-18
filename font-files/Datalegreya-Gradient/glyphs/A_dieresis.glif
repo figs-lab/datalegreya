@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis" format="1">
+  <advance width="554"/>
+  <unicode hex="00C4"/>
+  <outline>
+    <contour>
+      <point x="277" y="637" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="207" y="760" type="curve" smooth="yes"/>
+      <point x="219" y="760"/>
+      <point x="227" y="768"/>
+      <point x="227" y="780" type="curve" smooth="yes"/>
+      <point x="227" y="792"/>
+      <point x="219" y="800"/>
+      <point x="207" y="800" type="curve" smooth="yes"/>
+      <point x="195" y="800"/>
+      <point x="187" y="792"/>
+      <point x="187" y="780" type="curve" smooth="yes"/>
+      <point x="187" y="768"/>
+      <point x="195" y="760"/>
+    </contour>
+    <contour>
+      <point x="347" y="760" type="curve" smooth="yes"/>
+      <point x="359" y="760"/>
+      <point x="367" y="768"/>
+      <point x="367" y="780" type="curve" smooth="yes"/>
+      <point x="367" y="792"/>
+      <point x="359" y="800"/>
+      <point x="347" y="800" type="curve" smooth="yes"/>
+      <point x="335" y="800"/>
+      <point x="327" y="792"/>
+      <point x="327" y="780" type="curve" smooth="yes"/>
+      <point x="327" y="768"/>
+      <point x="335" y="760"/>
+    </contour>
+    <contour>
+      <point x="526" y="0" type="line"/>
+      <point x="293" y="637" type="line"/>
+      <point x="273" y="637" type="line"/>
+      <point x="19" y="0" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="57" y="43" type="line"/>
+      <point x="125" y="213" type="line"/>
+      <point x="427" y="213" type="line"/>
+      <point x="490" y="43" type="line"/>
+      <point x="503" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="420" y="233" type="line"/>
+      <point x="133" y="233" type="line"/>
+      <point x="280" y="603" type="line"/>
+      <point x="284" y="603" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j.bot" format="1">
+  <advance width="86"/>
+  <outline>
+    <contour>
+      <point x="18" y="-12" type="line"/>
+      <point x="18" y="-5" type="line"/>
+      <point x="59" y="-5" type="line"/>
+      <point x="59" y="-81" type="line" smooth="yes"/>
+      <point x="59" y="-88"/>
+      <point x="57" y="-94"/>
+      <point x="53" y="-98" type="curve" smooth="yes"/>
+      <point x="49" y="-102"/>
+      <point x="43" y="-104"/>
+      <point x="34" y="-106" type="curve" smooth="yes"/>
+      <point x="31" y="-107"/>
+      <point x="26" y="-108"/>
+      <point x="20" y="-108" type="curve"/>
+      <point x="20" y="-100" type="line"/>
+      <point x="29" y="-99"/>
+      <point x="35" y="-98"/>
+      <point x="39" y="-96" type="curve" smooth="yes"/>
+      <point x="42" y="-95"/>
+      <point x="45" y="-94"/>
+      <point x="46" y="-93" type="curve" smooth="yes"/>
+      <point x="49" y="-90"/>
+      <point x="51" y="-86"/>
+      <point x="51" y="-81" type="curve" smooth="yes"/>
+      <point x="51" y="-12" type="line"/>
+    </contour>
+    <contour>
+      <point x="46" y="18" type="curve" smooth="yes"/>
+      <point x="46" y="22"/>
+      <point x="49" y="24"/>
+      <point x="53" y="24" type="curve" smooth="yes"/>
+      <point x="58" y="24"/>
+      <point x="60" y="22"/>
+      <point x="60" y="17" type="curve" smooth="yes"/>
+      <point x="60" y="13"/>
+      <point x="58" y="10"/>
+      <point x="53" y="10" type="curve" smooth="yes"/>
+      <point x="51" y="10"/>
+      <point x="49" y="11"/>
+      <point x="48" y="12" type="curve" smooth="yes"/>
+      <point x="47" y="14"/>
+      <point x="46" y="15"/>
+    </contour>
+  </outline>
+</glyph>

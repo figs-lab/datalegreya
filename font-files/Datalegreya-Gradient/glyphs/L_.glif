@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="1">
+  <advance width="398"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="196" y="637" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="236" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="393" y="16" type="line"/>
+      <point x="390" y="20" type="line"/>
+      <point x="129" y="20" type="line"/>
+      <point x="129" y="637" type="line"/>
+      <point x="109" y="637" type="line"/>
+      <point x="109" y="0" type="line"/>
+      <point x="389" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

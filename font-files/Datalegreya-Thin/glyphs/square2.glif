@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="square2" format="1">
+  <advance width="631"/>
+  <outline>
+    <contour>
+      <point x="632" y="0" type="line"/>
+      <point x="632" y="632" type="line"/>
+      <point x="0" y="632" type="line"/>
+      <point x="0" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

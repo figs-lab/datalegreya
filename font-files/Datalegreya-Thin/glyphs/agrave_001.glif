@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="agrave.001" format="1">
+  <advance width="494"/>
+  <outline>
+    <contour>
+      <point x="251" y="491" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="321" y="558" type="line"/>
+      <point x="332" y="571" type="line"/>
+      <point x="286" y="610"/>
+      <point x="240" y="653"/>
+      <point x="186" y="708" type="curve"/>
+      <point x="181" y="707" type="line"/>
+      <point x="171" y="697" type="line"/>
+      <point x="172" y="692" type="line"/>
+      <point x="220" y="644"/>
+      <point x="266" y="601"/>
+      <point x="316" y="557" type="curve"/>
+    </contour>
+    <contour>
+      <point x="452" y="0" type="line"/>
+      <point x="262" y="491" type="line"/>
+      <point x="241" y="491" type="line"/>
+      <point x="34" y="0" type="line"/>
+      <point x="57" y="0" type="line"/>
+      <point x="69" y="35" type="line"/>
+      <point x="122" y="161" type="line"/>
+      <point x="370" y="161" type="line"/>
+      <point x="419" y="35" type="line"/>
+      <point x="429" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="362" y="180" type="line"/>
+      <point x="130" y="180" type="line"/>
+      <point x="249" y="461" type="line"/>
+      <point x="252" y="461" type="line"/>
+    </contour>
+  </outline>
+</glyph>

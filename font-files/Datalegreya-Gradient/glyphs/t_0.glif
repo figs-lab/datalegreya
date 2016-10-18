@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t.0" format="1">
+  <advance width="428"/>
+  <outline>
+    <contour>
+      <point x="131" y="486" type="line"/>
+      <point x="205" y="486" type="line"/>
+      <point x="205" y="0" type="line"/>
+      <point x="225" y="0" type="line"/>
+      <point x="225" y="486" type="line"/>
+      <point x="301" y="486" type="line"/>
+      <point x="384" y="485" type="line"/>
+      <point x="387" y="501" type="line"/>
+      <point x="385" y="506" type="line"/>
+      <point x="45" y="506" type="line"/>
+      <point x="42" y="489" type="line"/>
+      <point x="45" y="485" type="line"/>
+    </contour>
+    <contour>
+      <point x="428" y="-38" type="curve"/>
+      <point x="0" y="-38" type="line"/>
+      <point x="-2" y="-38"/>
+      <point x="-4" y="-40"/>
+      <point x="-4" y="-42" type="curve" smooth="yes"/>
+      <point x="-4" y="-44"/>
+      <point x="-2" y="-46"/>
+      <point x="0" y="-46" type="curve"/>
+      <point x="428" y="-46" type="line"/>
+      <point x="430" y="-46"/>
+      <point x="432" y="-44"/>
+      <point x="432" y="-42" type="curve" smooth="yes"/>
+      <point x="432" y="-40"/>
+      <point x="430" y="-38"/>
+    </contour>
+  </outline>
+</glyph>

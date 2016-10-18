@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J" format="1">
+  <advance width="268"/>
+  <unicode hex="004A"/>
+  <outline>
+    <contour>
+      <point x="108" y="637" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="160" y="637" type="line"/>
+      <point x="11" y="637" type="line"/>
+      <point x="8" y="621" type="line"/>
+      <point x="12" y="617" type="line"/>
+      <point x="140" y="617" type="line"/>
+      <point x="140" y="113" type="line" smooth="yes"/>
+      <point x="140" y="30"/>
+      <point x="106" y="-25"/>
+      <point x="20" y="-81" type="curve"/>
+      <point x="20" y="-87" type="line"/>
+      <point x="31" y="-98" type="line"/>
+      <point x="124" y="-37"/>
+      <point x="160" y="21"/>
+      <point x="160" y="115" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

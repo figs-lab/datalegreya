@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="up" format="1">
+  <advance width="401"/>
+  <outline>
+    <contour>
+      <point x="336" y="106" type="line"/>
+      <point x="201" y="376" type="line"/>
+      <point x="66" y="106" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eacute" format="1">
+  <advance width="454"/>
+  <unicode hex="00C9"/>
+  <outline>
+    <contour>
+      <point x="266" y="637" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="267" y="0" type="move" name="mark1"/>
+    </contour>
+    <contour>
+      <point x="211" y="727" type="line"/>
+      <point x="216" y="724" type="line"/>
+      <point x="275" y="754"/>
+      <point x="331" y="783"/>
+      <point x="390" y="817" type="curve"/>
+      <point x="392" y="822" type="line"/>
+      <point x="385" y="834" type="line"/>
+      <point x="380" y="836" type="line"/>
+      <point x="314" y="797"/>
+      <point x="258" y="768"/>
+      <point x="204" y="742" type="curve"/>
+    </contour>
+    <contour>
+      <point x="425" y="16" type="line"/>
+      <point x="422" y="20" type="line"/>
+      <point x="130" y="20" type="line"/>
+      <point x="130" y="320" type="line"/>
+      <point x="367" y="320" type="line"/>
+      <point x="371" y="336" type="line"/>
+      <point x="368" y="340" type="line"/>
+      <point x="130" y="340" type="line"/>
+      <point x="130" y="617" type="line"/>
+      <point x="417" y="617" type="line"/>
+      <point x="421" y="633" type="line"/>
+      <point x="418" y="637" type="line"/>
+      <point x="110" y="637" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="421" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

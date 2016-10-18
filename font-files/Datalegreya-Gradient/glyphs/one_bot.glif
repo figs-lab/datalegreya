@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.bot" format="1">
+  <advance width="86"/>
+  <outline>
+    <contour>
+      <point x="73" y="-79" type="line"/>
+      <point x="14" y="-79" type="line"/>
+      <point x="14" y="-71" type="line"/>
+      <point x="41" y="-71" type="line"/>
+      <point x="41" y="11" type="line"/>
+      <point x="15" y="-1" type="line"/>
+      <point x="11" y="7" type="line"/>
+      <point x="42" y="21" type="line"/>
+      <point x="50" y="21" type="line"/>
+      <point x="50" y="-71" type="line"/>
+      <point x="73" y="-71" type="line"/>
+    </contour>
+  </outline>
+</glyph>

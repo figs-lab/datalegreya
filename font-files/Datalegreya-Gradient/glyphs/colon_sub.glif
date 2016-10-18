@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon.sub" format="1">
+  <advance width="86"/>
+  <outline>
+    <contour>
+      <point x="30" y="677" type="line"/>
+      <point x="30" y="692" type="line"/>
+      <point x="44" y="692" type="line"/>
+      <point x="44" y="677" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="722" type="line"/>
+      <point x="30" y="738" type="line"/>
+      <point x="44" y="738" type="line"/>
+      <point x="44" y="722" type="line"/>
+    </contour>
+  </outline>
+</glyph>

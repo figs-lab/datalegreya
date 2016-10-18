@@ -40,7 +40,7 @@ Check out our [**demo**](http://figs-lab.com/datalegreya) on our website!
 
 1. [**Download ZIP**](https://github.com/figs-lab/datalegreya/archive/master.zip)
 2. Unzip `datalegreya-master.zip`
-3. Go to `/Font Files` folder and double-click on OTF files to install it on your computer.
+3. Go to `/font-files` folder and double-click on OTF files in each subfolder to install it on your computer.
 4. Open you favorite design software
 5. Activate the following OpenType features:
 	- Ligatures
