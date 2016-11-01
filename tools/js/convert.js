@@ -1,5 +1,5 @@
 // Example : 
-document.getElementById("quote").innerHTML = convert_string_full("No. Calm down, learn to enjoy losing", [3, 2, 1, 4, 5, 0, 7, 8], 0, 10);
+document.getElementById("quote").innerHTML = convert_string_full("No. Calm down, learn to enjoy losing", [3, 2, 1, 4, 5, 0, 7, 2], 0, 10);
 
 
 /**
