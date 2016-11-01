@@ -1,5 +1,7 @@
-![Datalegreya](http://www.figs-lab.com/datalegreya/readme-specimen.png)
+#Datalegreya #
 ##the typeface that melts text and data visualisation
+![Datalegreya](http://www.figs-lab.com/datalegreya/readme-specimen.png)
+
 
 >Datalegreya is a typeface which can interweave data curves with text. It is designed by Figs, on the basis of open source font Alegreya Sans SC Thin by typographer Juan Pablo del Peral. 
 
