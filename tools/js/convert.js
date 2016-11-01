@@ -63,7 +63,8 @@ function convert_string_basic(string, values)
 {
     var strRes = "";
     var char = "";
-    wasNeutral = false
+    wasNeutral = false;
+    string = string.toLowerCase();
             
     for(var i=0; i<string.length; i++){
         char = string.charAt(i);
