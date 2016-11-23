@@ -1,56 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <style type="text/css">
-            @font-face {
-                font-family: FigsFaceGradient;
-                src: url("../font-files/Datalegreya-Thin/Datalegreya-Thin.otf") format("opentype");
-            }
-            html, body{
-                background-color: #3c3c3a;
-                margin: 50px 0px 0px 50px;
-                padding: 0px;
-                height: 100%;
-            }
-            
-            #quote{
-                font-family: 'FigsFaceGradient', sans-serif;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-                -webkit-font-feature-settings: "kern";
-                font-feature-settings: "kern" on, "liga" on, "calt" on;
-                -moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
-                -webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
-                -ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
-                -o-font-feature-settings: "kern" on, "liga" on, "calt" on;
-                font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
-                font-kerning: normal;
-                font-weight: normal;
-                font-size: 70px;
-                color:#FFF;
-            }
-            
-            .author{
-                font-family: 'Alegreya Sans SC', sans-serif;
-                font-size: 70px;
-                font-weight: normal;
-                font-size: 30px;
-                color:#FFF;
-            }    
-        </style>
-        
-    </head>
-    <body>
-        
-        <div id="quote">
-            « No. Calm down. Learn to enjoy loosing. »
-        </div>
-        <div class="author">
-            Hunter J. Thompson
-        </div>
-        
-        <script type="text/javascript" src="js/Smooth.js"></script>
-        <script type="text/javascript" src="js/convert.js"></script>
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/mainStyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,400" rel="stylesheet">
+	</head>
+	<body>
+		
+		<script type="text/javascript" src="js/Smooth.js"></script>
+		<script type="text/javascript" src="js/convert.js"></script>
+		<script type="text/javascript" src="js/clipboard.min.js"></script>
+		<script type="text/javascript" src="js/form.js"></script>
+		
+		<form id="convertionParams">
+			<div class="row">
+				<h2>Input</h2>
+				<div class="col-2">
+					<h3>Text</h3>
+					<p class="inputFieldLabel">Any string in lowercase.</p>
+					<textarea class="inputField" id="inputText" autocorrect="off" rows="1" onchange="input_changed_on('inputText')" onkeyup="input_changed_on('inputText')" onfocus="focus_on('inputText')" onblur="blur_on('inputText')" placeholder="type your text here"></textarea>
+				</div>
+
+				<div class="col-2">
+					<h3>Data</h3>
+					<p class="inputFieldLabel">Numbers, separated with commas, spaces, or semicolons. Decimal notation must be 1234.567, no spacers for thousands.</p>
+					<textarea class="inputField" id="inputValues" autocorrect="off" rows="1" onchange="input_changed_on('inputValues')" onkeyup="input_changed_on('inputValues')" onfocus="focus_on('inputValues')" onblur="blur_on('inputValues')" placeholder="insert your data here"></textarea>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-2">
+					<button id="copyToClipboard" data-clipboard-target="#outputCode">
+						<svg id="clipboard-text" style="width:18px;height:18px" viewBox="0 0 24 24">
+							<path fill="#000000" d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+						</svg>
+						<svg id="clipboard-check" style="width:18px;height:18px;display:none" viewBox="0 0 24 24">
+				    	<path fill="#000000" d="M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+						</svg>
+						<span>copy to clipboard</span>
+					</button>
+					<h2>Output</h2>
+					<div id="outputs">
+							<output class="legendNeutral" id="outputText"></output>
+							<output class="legendNeutral" id="outputCode"></output>
+					</div>
+				</div>
+
+				<div class="col-2">
+					
+					<h2>Options</h2>
+					<div class="col-2-M">
+						<h3>Min&thinsp;/&thinsp;Max values</h3>
+						<p>Optional.</p>
+						
+						<label class="labelPlaceholder">Minimal value</label>
+						<input type="text" class="valueParameter" id="minValue" pattern="[0-9]*" onchange="input_changed_on('minValue')" onkeyup="input_changed_on('minValue')">
+						
+						<p class="label">Display</p>
+						<div class="radio-inputs">
+							<input type="radio" name="minMarker" value="0" checked onchange="markers_type_changed_on(minMarker)"><label>none</label>
+							<input type="radio" name="minMarker" value="1" onchange="markers_type_changed_on(minMarker)"><label>simple</label>
+							<input type="radio" name="minMarker" value="2" onchange="markers_type_changed_on(minMarker)"><label>full</label>
+						</div>
+
+						<label class="labelPlaceholder">Maximal value</label>
+						<input type="text" class="valueParameter" id="maxValue" pattern="[0-9]*" onchange="input_changed_on('maxValue')" onkeyup="input_changed_on('maxValue')">
+						
+						<p class="label">Display</p>
+						<div class="radio-inputs">
+							<input type="radio" name="maxMarker" value="0" checked onchange="markers_type_changed_on(maxMarker)"><label>none</label>
+							<input type="radio" name="maxMarker" value="1" onchange="markers_type_changed_on(maxMarker)"><label>simple</label>
+							<input type="radio" name="maxMarker" value="2" onchange="markers_type_changed_on(maxMarker)"><label>full</label>
+						</div>
+					</div>
+
+					<div class="col-2-M">
+						<h3>Axis legends</h3>
+						<p>5 characters including: digits, letters in lowercase, spaces, slash or colon.</p>
+						
+						<label class="labelPlaceholder">X-axis first value</label>
+						<input type="text" class="valueParameter" id="xlegend1" maxlength="5" value="" onchange="legend_changed_on('xlegend1')" onkeyup="legend_changed_on('xlegend1')">
+						<label class="labelPlaceholder">Y-axis first value</label>
+						<input type="text" class="valueParameter" id="ylegend2" maxlength="5" value="" onchange="legend_changed_on('ylegend2')" onkeyup="legend_changed_on('ylegend2')">
+						
+						<label class="labelPlaceholder">X-axis last value</label>
+						<input type="text" class="valueParameter" id="xlegend2" maxlength="5" value="" onchange="legend_changed_on('xlegend2')" onkeyup="legend_changed_on('xlegend2')">
+
+						<label class="labelPlaceholder">Y-axis last value</label>
+						<input type="text" class="valueParameter" id="ylegend1" maxlength="5" value="" onchange="legend_changed_on('ylegend1')" onkeyup="legend_changed_on('ylegend1')">
+					</div>
+				</div>
+				
+			</div>
+		</form>
+		
+	</body>
 </html>

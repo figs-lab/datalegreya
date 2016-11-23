@@ -1,0 +1,235 @@
+
+@font-face {
+	font-family: FigsFaceGradient;
+	src: url("../../font-files/Datalegreya-Thin.otf") format("opentype");
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #3c3c3a;
+	color: #AAA;
+	margin: 50px 7.5vw;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	line-height: 1.25;
+	margin-bottom: 1em;
+}
+
+
+/* Grid & columns */
+
+.row {
+	width: 100%;
+	display: inline-block;
+	clear: both;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+	width: 100%;
+}
+.col-2-M {
+	width: 47.5%;
+}
+.row div[class^="col-"] {
+	float: left;
+	margin-bottom: 1rem;
+	margin-right: 5%;
+}
+.row div[class^="col-"]:last-child {
+	margin-right: 0%;
+}
+
+@media screen and (min-width: 1024px) {
+	.col-2 {
+		width: 47.5%;
+	}
+	.col-3 {
+		width: 30%;
+	}
+	.col-4 {
+		width: 21.25%;
+	}
+	h3 + p {
+		min-height: 4.25em;
+	}
+	.inputFieldLabel {
+		min-height: 4.25em;
+	}
+}
+
+/* Heading */
+
+h1, h2, h3, h4 {
+	color: #fff;
+	margin-bottom: .5em;
+	font-family: 'Alegreya Sans', sans-serif;
+	letter-spacing: 0.025em;
+}
+h2 {
+	font-size: 1.75rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+h3 {
+	font-size: 1.25rem;
+	font-weight: 400;
+	padding-bottom: .5em;
+	border-bottom: 1px solid rgba(255,255,255,.25);
+}
+h4 {
+	font-size: 1rem;
+}
+h3 + p {
+	min-height: 3.75em;
+}
+
+
+/* Form, Inputs & Labels */
+
+#convertionParams {
+	margin-bottom: 3rem;
+}
+
+input[type="text"],
+textarea {
+	display: inline-block;
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	border: none;
+	color: #3c3c3a;
+	padding: .5em;
+}
+
+.valueParameter {
+	font-size: 1rem;
+	height: 2em;
+	margin-bottom: 1rem;
+}
+.inputField {
+	font-size: 1.5rem;
+	margin-bottom: 2em;
+}
+
+.radio-inputs {
+	min-height: 31px;
+	margin-bottom: 1rem;
+	padding: .25em 0;
+}
+
+input[type="radio"] {
+	margin-bottom: .5em;
+	margin-right: .75em;
+}
+input[type="radio"] + label {
+	display: inline;
+	margin-right: .75em;
+}
+
+#inputText {
+	margin-right: 10%;
+}
+
+label, .label {
+	font-size: .875rem;
+	text-transform: uppercase;
+	display: block;
+	clear: both;
+	margin: .5em 0;
+}
+/*
+.labelPlaceholder {
+	position: relative;
+	top: 31px;
+	left: .5rem;
+}
+*/
+/* Outputs */
+
+#outputs {
+	background-color: rgba(0,0,0,.1);
+	padding: 1rem 1.5rem;
+	margin-bottom: 2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#outputText {
+	font-family: 'FigsFaceGradient', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-feature-settings: "kern";
+	font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-o-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+	font-kerning: normal;
+	font-weight: normal;
+	font-size: 4.75rem;
+	min-height: 6rem; 
+	color:#fff;
+	line-height: 1;
+	margin-bottom: .5rem;
+}
+					
+#outputCode {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 1.5rem;
+	min-height: 3rem; 
+	line-height: 1.5;
+	font-weight: 100;
+	color: #fff;
+}
+
+.legendNeutral {
+	display: block;
+	clear: both;
+}
+
+.legendValid { 
+	color: #00FF00 !important;
+}
+
+.legendInvalid {
+	color: #FF0000 !important;
+}
+
+
+/* Button */
+
+#copyToClipboard {
+	float: right;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	font-size: .875rem;
+	background-color: rgba(255,255,255,.9);
+	text-transform: uppercase;
+	padding: .5em .75em;
+	transition: .15s background-color;
+}
+#copyToClipboard > svg {
+	margin-right: .5em;
+	float: left;	
+}
+#copyToClipboard > span {
+	line-height: 1;
+}
+#copyToClipboard:hover {
+	background-color: rgba(255,255,255,1);
+	-webkit-box-shadow: 0px 2px rgba(0,0,0,.25);
+	box-shadow: 0px 2px rgba(0,0,0,.5);
+}
