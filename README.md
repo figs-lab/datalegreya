@@ -120,7 +120,7 @@ Simply insert after the selected value one of the following code, enclosed into 
 
 `[++]` --> maxinum indicator
 
-<pre><code>b|1i|3[max]n|2g|2o|1</code></pre>
+<pre><code>b|1i|3[+]n|2g|2o|1</code></pre>
 
 ![Datalegreya – Min / Max indicators](http://www.figs-lab.com/datalegreya/readme-16.png)
 
