@@ -120,7 +120,7 @@ Simply insert after the selected value one of the following code, enclosed into 
 
 `[++]` --> maxinum indicator
 
-<pre><code>b|1i|3n|2g|2o|1 \h|2o|2p|3</code></pre>
+<pre><code>b|1i|3[+]n|2g|2o|1</code></pre>
 
 ![Datalegreya – Min / Max indicators](http://www.figs-lab.com/datalegreya/readme-16.png)
 
@@ -135,7 +135,7 @@ To achieve precise display of the character following the space, a `\` (antislas
 > 
 > - *if you put more than 5 consecutive spaces or neutral characters, the following character won’t remember the value of the previous character.*
 
-<pre><code>b|1i|3[max]n|2g|2o|1</code></pre>
+<pre><code>b|1i|3n|2g|2o|1 \h|2o|2p|3</code></pre>
 
 ![Datalegreya – Neutral spaces](http://www.figs-lab.com/datalegreya/readme-17.png)
 
