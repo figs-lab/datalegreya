@@ -1,4 +1,7 @@
-Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names 'Alegreya Sans'
+Copyright (c) 2016, Figs (contact@figs-lab.com), with reserved font names ‘Datalegreya’
+
+Base of Alegreya Sans SC Thin by Juan Pablo del Peral (juan@huertatipografica.com.ar)
+and on Tekton designed at ISIA Urbino.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
