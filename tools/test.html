@@ -41,6 +41,12 @@
 						<span>copy to clipboard</span>
 					</button>
 					<h2>Output</h2>
+					<span class="label">Font Family</span>
+					<div class="radio-inputs">
+						<input type="radio" name="fontFamily" value="2" checked="" onchange="markers_fontfamily_changed_on('gradient')"><label>Gradient</label>
+						<input type="radio" name="fontFamily" value="0" onchange="markers_fontfamily_changed_on('thin')"><label>Thin</label>
+						<input type="radio" name="fontFamily" value="1" onchange="markers_fontfamily_changed_on('dot')"><label>Dot</label>
+ 					</div>
 					<div id="outputs">
 							<output class="legendNeutral" id="outputText"></output>
 							<output class="legendNeutral" id="outputCode"></output>
