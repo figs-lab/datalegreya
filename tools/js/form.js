@@ -103,6 +103,31 @@ function validate_legend_format(id)
     }
 }
 
+/*
+ * called when a FontFamily Radio Button is clicked. Adds and removes css styles.
+ * @param {String} type 
+*/
+
+function markers_fontfamily_changed_on(type) {
+	var id = 'outputText';
+	switch(type) {
+		case 'thin': 
+			document.getElementById(id).classList.remove("family_gradient");
+			document.getElementById(id).classList.remove("family_dot");
+			document.getElementById(id).classList.add("family_thin");
+			break;
+		case 'dot': 
+			document.getElementById(id).classList.remove("family_gradient");
+			document.getElementById(id).classList.remove("family_thin");
+			document.getElementById(id).classList.add("family_dot");
+			break;
+		case 'gradient':
+			document.getElementById(id).classList.remove("family_dot");
+			document.getElementById(id).classList.remove("family_thin");
+			document.getElementById(id).classList.add("family_gradient");
+			break;
+	}
+}
 
 /**
  * called when a radio button describing the appearance of the min / max markers is changed
