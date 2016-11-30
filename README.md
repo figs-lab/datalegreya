@@ -40,7 +40,7 @@
 ##Demo
 Check out our [**demo**](http://figs-lab.com/datalegreya) on our website!
 
-The conversion tool inside the "tools" folder of this repository is also available at [**this url**](http://www.figs-lab.com/content/datalegreya/convert.html)
+The conversion tool inside the [`/tools`](https://github.com/figs-lab/datalegreya/tree/master/tools) folder of this repository is also available [**here**](http://www.figs-lab.com/content/datalegreya/convert.html)
 
 ##How to install
 
