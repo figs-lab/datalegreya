@@ -1,7 +1,14 @@
-
+@font-face {
+	font-family: FigsFaceThin;
+	src: url("../../font-files/Datalegreya-Thin.otf") format("opentype");
+}
 @font-face {
 	font-family: FigsFaceGradient;
-	src: url("../../font-files/Datalegreya-Thin.otf") format("opentype");
+	src: url("../../font-files/Datalegreya-Gradient.otf") format("opentype");
+}
+@font-face {
+	font-family: FigsFaceDot;
+	src: url("../../font-files/Datalegreya-Dot.otf") format("opentype");
 }
 
 * {
@@ -184,7 +191,15 @@ label, .label {
 	line-height: 1;
 	margin-bottom: .5rem;
 }
-					
+#outputText.family_dot {
+	font-family: 'FigsFaceDot', sans-serif;
+}
+#outputText.family_gradient {
+	font-family: 'FigsFaceGradient', sans-serif;
+}		
+#outputText.family_thin {
+	font-family: 'FigsFaceThin', sans-serif;
+}
 #outputCode {
 	font-family: 'Alegreya Sans SC', sans-serif;
 	font-size: 1.5rem;
