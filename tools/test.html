@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/mainStyle.css">
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	<body>
 		
@@ -26,6 +27,8 @@
 					<h3>Data</h3>
 					<p class="inputFieldLabel">Numbers, separated with commas, spaces, or semicolons. Decimal notation must be 1234.567, no spacers for thousands.</p>
 					<textarea class="inputField" id="inputValues" autocorrect="off" rows="1" onchange="input_changed_on('inputValues')" onkeyup="input_changed_on('inputValues')" onfocus="focus_on('inputValues')" onblur="blur_on('inputValues')" placeholder="insert your data here"></textarea>
+                    <p class="warning" id="warning_expand"><i class="material-icons">error_outline</i>your Data will be expanded to fit the length of your Text</p>
+                    <p class="warning" id="warning_shrink"><i class="material-icons">error_outline</i>your Data will be shrinked to fit the length of your Text</p>
 				</div>
 			</div>
 
@@ -57,23 +60,27 @@
 					
 					<h2>Options</h2>
 					<div class="col-2-M">
-						<h3>Min&thinsp;/&thinsp;Max values</h3>
-						<p>Optional.</p>
+						<h3>Data boundaries</h3>
+						<p>Optional. Allows you to specify a range wider than your data's.</p>
 						
-						<label class="labelPlaceholder">Minimal value</label>
+						<label class="labelPlaceholder">Lower boundary value</label>
 						<input type="text" class="valueParameter" id="minValue" pattern="[0-9]*" onchange="input_changed_on('minValue')" onkeyup="input_changed_on('minValue')">
 						
-						<p class="label">Display</p>
+
+						<label class="labelPlaceholder">Upper boundary value</label>
+						<input type="text" class="valueParameter" id="maxValue" pattern="[0-9]*" onchange="input_changed_on('maxValue')" onkeyup="input_changed_on('maxValue')">
+                        
+						<h3><br><br><br>Min&thinsp;/&thinsp;Max indicators</h3>
+						<p>Optional. Display arrows pointing extreme values in your data.</p>
+                        
+                        <p class="label">Minimal indicator</p>
 						<div class="radio-inputs">
 							<input type="radio" name="minMarker" value="0" checked onchange="markers_type_changed_on(minMarker)"><label>none</label>
 							<input type="radio" name="minMarker" value="1" onchange="markers_type_changed_on(minMarker)"><label>simple</label>
 							<input type="radio" name="minMarker" value="2" onchange="markers_type_changed_on(minMarker)"><label>full</label>
 						</div>
-
-						<label class="labelPlaceholder">Maximal value</label>
-						<input type="text" class="valueParameter" id="maxValue" pattern="[0-9]*" onchange="input_changed_on('maxValue')" onkeyup="input_changed_on('maxValue')">
-						
-						<p class="label">Display</p>
+                        
+						<p class="label">Maximal indicator</p>
 						<div class="radio-inputs">
 							<input type="radio" name="maxMarker" value="0" checked onchange="markers_type_changed_on(maxMarker)"><label>none</label>
 							<input type="radio" name="maxMarker" value="1" onchange="markers_type_changed_on(maxMarker)"><label>simple</label>

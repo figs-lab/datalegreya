@@ -65,6 +65,18 @@ function input_changed_on(id)
     // display the result
     document.getElementById("outputText").innerHTML = result;
     document.getElementById("outputCode").innerHTML = result;
+    
+    // show hints relative to the inputs
+    if(strValues.length-1 == strText.length){
+        document.getElementById("warning_expand").style.display = "none";
+        document.getElementById("warning_shrink").style.display = "none";
+    }else if(strValues.length-1 < strText.length){
+        document.getElementById("warning_expand").style.display = "block";
+        document.getElementById("warning_shrink").style.display = "none";
+    }else if(strValues.length-1 > strText.length){
+        document.getElementById("warning_expand").style.display = "none";
+        document.getElementById("warning_shrink").style.display = "block";
+    }
 }
 
 

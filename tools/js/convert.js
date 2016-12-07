@@ -57,7 +57,6 @@ function convert_string_basic(string, values)
  *                    description of the parameters :
  *                    min optional : the minimal value for the datas
  *                    max optional : the maximal value for the datas
- *                    startValue : the start value of the data curve, default is the first value
  *                    xlegend1 : a string, 5 characters long, no more no less, may contain lowercase letters, digits, spaces, : sign, / sign
  *                    xlegend2 : a string, 5 characters long, no more no less, may contain lowercase letters, digits, spaces, : sign, / sign
  *                    ylegend1 : a string, 5 characters long, no more no less, may contain lowercase letters, digits, spaces, : sign, / sign
@@ -74,7 +73,7 @@ function convert_string_full(string, values, params)
     var values1 = [];   
     var values2 = [];
     var rawValuesLength = values.length;
-    var finalValuesLength = string.length;
+    var finalValuesLength = string.length+1;
     var minV = 10000000;
     var maxV = -10000000;
     
@@ -136,14 +135,7 @@ function convert_string_full(string, values, params)
     }
     
     // set code for the start value of the curve
-    var startValueCode = "";
-    var startValue;
-    if(params.startValue == null){
-        startValue = values2[0];
-    }else{
-        startValue = Math.round(((startValue-params.min)/(range))*3);
-    }
-    startValueCode = "§"+startValue;
+    var startValueCode = "§"+values2[0];
     
     // melt letters with values
     var strRes = "";
@@ -152,7 +144,7 @@ function convert_string_full(string, values, params)
     string = string.toLowerCase();
     for(var i=0; i<string.length; i++){
         char = string.charAt(i);
-        strRes = strRes + get_char_conversion(char, values2[i], i==0); 
+        strRes = strRes + get_char_conversion(char, values2[i+1], i==0); 
         if(i == minIndex) strRes = strRes + minMarkerCode;//+"§"+values2[i];
         if(i == maxIndex) strRes = strRes + maxMarkerCode;//+"§"+values2[i];
     }
