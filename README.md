@@ -114,13 +114,13 @@ The graph can be documented with indicators pointing on the minimum and / or max
 
 Simply insert after the selected value one of the following code, enclosed into brackets:
 
-`[-]` --> abbreviated mininum indicator
+`[-]` --> abbreviated minimum indicator
 
-`[--]` --> mininum indicator
+`[--]` --> minimum indicator
 
-`[+]` --> abbreviated maxinum indicator
+`[+]` --> abbreviated maximum indicator
 
-`[++]` --> maxinum indicator
+`[++]` --> maximum indicator
 
 <pre><code>b|1i|3[+]n|2g|2o|1</code></pre>
 
