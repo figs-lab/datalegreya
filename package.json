@@ -1,6 +1,6 @@
 {
   "name": "datalegreya",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Datalegreya, the typeface that melts text and data visualisation",
   "keywords": [
     "font", "data", "visualization", "san-serif"
@@ -13,7 +13,6 @@
     "type": "git",
     "url": "https://github.com/2metres/datalegreya.git"
   },
-  "author": "Andrew Carr <andrew@2metres.com>",
   "license": {
     "type": "SIL",
     "url": "http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"

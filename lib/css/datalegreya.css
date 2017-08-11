@@ -20,7 +20,11 @@
 }
 
 body {
-  font-feature-settings: "kern" on, "liga" on, "calt" on;
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
+     -moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
+      -ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
+          font-feature-settings: "kern" on, "liga" on, "calt" on;
+
   font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
