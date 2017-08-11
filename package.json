@@ -5,10 +5,12 @@
   "keywords": [
     "font", "data", "visualization", "san-serif"
   ],
-  "main": "dist/css/datalegreya.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib/css/datalegreya.css"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/2metres/datalegreya.git"
