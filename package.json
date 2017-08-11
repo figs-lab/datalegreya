@@ -1,15 +1,13 @@
 {
-  "name": "Datalegreya",
-  "version": "0.1.0",
+  "name": "datalegreya",
+  "version": "0.2.0",
   "description": "Datalegreya, the typeface that melts text and data visualisation",
   "keywords": [
     "font", "data", "visualization", "san-serif"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/css/datalegreya.css",
   "files": [
-    "lib/css/datalegreya.css"
+    "lib/*"
   ],
   "repository": {
     "type": "git",
