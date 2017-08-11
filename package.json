@@ -1,0 +1,28 @@
+{
+  "name": "Datalegreya",
+  "version": "0.1.0",
+  "description": "Datalegreya, the typeface that melts text and data visualisation",
+  "main": "dist/css/datalegreya.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2metres/datalegreya.git"
+  },
+  "keywords": [
+    "font",
+    "data",
+    "visualization",
+    "san-serif"
+  ],
+  "author": "Andrew Carr <andrew@2metres.com>",
+  "license": {
+    "type": "SIL",
+    "url": "http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+  },
+  "bugs": {
+    "url": "https://github.com/2metres/datalegreya/issues"
+  },
+  "homepage": "https://github.com/2metres/datalegreya#readme"
+}
