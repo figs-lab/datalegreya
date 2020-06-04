@@ -1,5 +1,5 @@
-# Datalegreya
-### the typeface that melts text and data visualisation
+#Datalegreya
+###the typeface that melts text and data visualisation
 
 ![Specimen](http://figs-lab.com/content/datalegreya/readme-specimen.png)
 
@@ -14,7 +14,7 @@
 >Most connected objects feature a small sized screen, and all of them are about data. By its hybrid design aimed to displaying text and data in compact spaces, Datalegreya brings a realistic and elegant solution to this ever growing market’s specific issues.
 
 
-## Summary
+##Summary
 - [**Demo**](http://figs-lab.com/datalegreya)
 - [**How to install**](#how-to-install)
 - [**How to use it**](#how-to-use-it)
@@ -37,12 +37,12 @@
 
 ------
 
-## Demo
-Check out our [**demo**](http://figs-lab.com/datalegreya) on our website!
+##Demo
+Check out our [**demo**](http://www.datalegreya.com) on our website!
 
-The conversion tool inside the [`/tools`](https://github.com/figs-lab/datalegreya/tree/master/tools) folder of this repository is also available [**here**](http://www.figs-lab.com/content/datalegreya/convert.html)
+The conversion tool inside the "tools" folder of this repository is also available at [**this url**](http://www.datalegreya.com/convert.html?lang=en)
 
-## How to install
+##How to install
 
 1. [**Download ZIP**](https://github.com/figs-lab/datalegreya/archive/master.zip)
 2. Unzip `datalegreya-master.zip`
@@ -55,23 +55,23 @@ The conversion tool inside the [`/tools`](https://github.com/figs-lab/datalegrey
 6. Enjoy!
 
 
-## How to use it
+##How to use it
 
 To use it, one just have to insert after each letter a special character followed by a number. The font automatically replaces this simple code by the characters that will display the curve corresponding to the selected values.
 Under the hood, Datalegreya makes use of OpenType advanced features: multiple substitutions grant the possibility to replace several glyphs by one unique character.
 
 
-### Simplest form
+###Simplest form
 
 Datalegreya can be used like a standard font. 
 Its design is nearly the same than Alegreya Sans SC Thin.
 
 <pre><code>bingo</code></pre>
 
-![Datalegreya – Simplest form](http://www.figs-lab.com/datalegreya/readme-12.png)
+![Datalegreya – Simplest form](http://www.datalegreya.com/assets/img/readme-12.png)
 
 
-### Simple graph
+###Simple graph
 
 Use the following encoding to display a graph inside a word: 
 
@@ -85,10 +85,10 @@ Use the following encoding to display a graph inside a word:
 
 <pre><code>b|1i|3n|2g|2o|1</code></pre>
 
-![Datalegreya – Simple graph](http://www.figs-lab.com/datalegreya/readme-13.png)
+![Datalegreya – Simple graph](http://www.datalegreya.com/assets/img/readme-13.png)
 
 
-### Neutral characters
+###Neutral characters
 
 To improve legibility of sentences, some characters won’t display the graph: 
 
@@ -96,38 +96,38 @@ To improve legibility of sentences, some characters won’t display the graph:
 
 <pre><code>b|1i|3n|2g|2o|1!|3</code></pre>
 
-![Datalegreya – Neutral characters](http://www.figs-lab.com/datalegreya/readme-14.png)
+![Datalegreya – Neutral characters](http://www.datalegreya.com/assets/img/readme-14.png)
 
 
-### Start value
+###Start value
 
 By default, the start value of the graph is 0, but user can start with another value by inserting the `§` (section) character, followed by a integer between 0 and 3.
 
 <pre><code>§1b|1i|3n|2g|2o|1</code></pre>
 
-![Datalegreya](http://www.figs-lab.com/datalegreya/readme-15.png)
+![Datalegreya](http://www.datalegreya.com/assets/img/readme-15.png)
 
 
-### Min / Max indicators
+###Min / Max indicators
 
 The graph can be documented with indicators pointing on the minimum and / or maximum values.
 
 Simply insert after the selected value one of the following code, enclosed into brackets:
 
-`[-]` --> abbreviated minimum indicator
+`[-]` --> abbreviated mininum indicator
 
-`[--]` --> minimum indicator
+`[--]` --> mininum indicator
 
-`[+]` --> abbreviated maximum indicator
+`[+]` --> abbreviated maxinum indicator
 
-`[++]` --> maximum indicator
+`[++]` --> maxinum indicator
 
 <pre><code>b|1i|3[+]n|2g|2o|1</code></pre>
 
-![Datalegreya – Min / Max indicators](http://www.figs-lab.com/datalegreya/readme-16.png)
+![Datalegreya – Min / Max indicators](http://www.datalegreya.com/assets/img/readme-16.png)
 
 
-### Neutral spaces
+###Neutral spaces
 
 Spaces can be inserted in a graphed sentence.
 
@@ -139,10 +139,10 @@ To achieve precise display of the character following the space, a `\` (antislas
 
 <pre><code>b|1i|3n|2g|2o|1 \h|2o|2p|3</code></pre>
 
-![Datalegreya – Neutral spaces](http://www.figs-lab.com/datalegreya/readme-17.png)
+![Datalegreya – Neutral spaces](http://www.datalegreya.com/assets/img/readme-17.png)
 
 
-### Non neutral spaces
+###Non neutral spaces
 
 But spaces can also be part of the graph. 
 
@@ -152,10 +152,10 @@ Use them just as normal characters:
 
 <pre><code>b|1i|3n|2g|2o|1 |2h|2o|2p|3</code></pre>
 
-![Datalegreya – Non neutral spaces](http://www.figs-lab.com/datalegreya/readme-18.png)
+![Datalegreya – Non neutral spaces](http://www.datalegreya.com/assets/img/readme-18.png)
 
 
-### X axis legend
+###X axis legend
 
 It is possible to add information about the meaning of the values on the X-axis of the graph.
 
@@ -171,10 +171,10 @@ Placing this code on the beginning and / or at the end of the string determine t
 
 <pre><code>{24/04}b|1i|3n|2g|2o|1{31/08}</code></pre>
 
-![Datalegreya – X-axis legend](http://www.figs-lab.com/datalegreya/readme-19.png)
+![Datalegreya – X-axis legend](http://www.datalegreya.com/assets/img/readme-19.png)
 
 
-### Y axis legend
+###Y axis legend
 
 User can also add legend about the Y-axis of the graph. Here is the code to achieve that:
 
@@ -188,12 +188,12 @@ Between `[ ]` (brackets), put 5 characters (the top value legend) followed by a 
 
 <pre><code>b|1i|3n|2g|2o|1[50   \[0    \]</code></pre>
 
-![Datalegreya – Y-axis legend](http://www.figs-lab.com/datalegreya/readme-20.png)
+![Datalegreya – Y-axis legend](http://www.datalegreya.com/assets/img/readme-20.png)
 
 
-## Webfont
+##Webfont
 
-### @font-face
+###@font-face
 To use it on the web, simply load the OTF file in your CSS using the `@font-face` rule:
 
 ```css
@@ -217,7 +217,7 @@ To use it on the web, simply load the OTF file in your CSS using the `@font-face
 }
 ```
 
-### `font-feature-settings` + `font-variant-ligatures`
+###`font-feature-settings` + `font-variant-ligatures`
 To display the font properly, you must enable `kern` (kerning), `liga` (ligatures) and `calt` (contextual alternates) features by adding the following code to your CSS file:
 
 ```css
@@ -231,7 +231,7 @@ body {
 }
 ```
 
-### `text-rendering` + `font-smoothing`
+###`text-rendering` + `font-smoothing`
 To optimize font rendering, you can also use `text-rendering` and `font-smoothing` properties as following:
 
 ```css
@@ -242,7 +242,7 @@ body {
 }
 ```
 
-### Browser support
+###Browser support
 Browser | CSS [OTF](http://caniuse.com/#feat=ttf) + [font-feature-settings](http://caniuse.com/#search=feature-settings) support
 ---------------------------| ------------------
 IE 9                       | ✗ No
@@ -263,10 +263,10 @@ IE Mobile                  | ✗ No
 
 
 
-## License
+##License
 This font is licensed under the [SIL Open Font License (OFL), Version 1.1](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
 
-## Feedback or questions?
+##Feedback or questions?
 Feel free to contact us at <contact@figs-lab.com>
 HIGHLIGHTS BY 0
