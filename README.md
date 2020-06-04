@@ -269,4 +269,3 @@ This font is licensed under the [SIL Open Font License (OFL), Version 1.1](http:
 
 ## Feedback or questions?
 Feel free to contact us at <contact@figs-lab.com>
-HIGHLIGHTS BY 0
