@@ -1,7 +1,7 @@
 #Datalegreya
 ###the typeface that melts text and data visualisation
 
-![Specimen](http://figs-lab.com/content/datalegreya/readme-specimen.png)
+![Specimen](http://www.datalegreya.com/assets/img/readme-specimen.png)
 
 >Datalegreya is a typeface which can interweave data curves with text. It is designed by [Figs](http://figs-lab.com), on the basis of open source font [Alegreya Sans SC Thin](https://fonts.google.com/specimen/Alegreya+Sans+SC) by type designer [Juan Pablo del Peral](https://twitter.com/juandelperal). 
 
