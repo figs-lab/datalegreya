@@ -15,7 +15,7 @@
 
 
 ## Summary
-- [**Demo**](http://figs-lab.com/datalegreya)
+- [**Demo**](http://www.datalegreya.com)
 - [**How to install**](#how-to-install)
 - [**How to use it**](#how-to-use-it)
 	- [Simplest form](#simplest-form)
