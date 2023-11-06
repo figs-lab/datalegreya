@@ -40,7 +40,7 @@
 ## Demo
 Check out our [**demo**](http://www.datalegreya.com) on our website!
 
-The conversion tool inside the "tools" folder of this repository is also available at [**this url**](http://www.datalegreya.com/convert.html?lang=en)
+Conversion tools are available at [**this url**](http://www.datalegreya.com/convert.html?lang=en)
 
 ## How to install
 
@@ -241,9 +241,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 ```
-
-### Utilities
-Conversion tools can be found at [www.datalegreya.com](http://www.datalegreya.com)
 
 
 ## License
